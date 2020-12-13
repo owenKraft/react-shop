@@ -99,6 +99,13 @@ function App() {
               )}
             />
             <Route 
+              path="/react-shop"
+              render={(props) => (
+                <Home {...props} 
+                />
+              )}
+            />
+            <Route 
               path="/shop" exact
               render={(props) => (
                 <Shop {...props} 
